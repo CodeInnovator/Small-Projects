@@ -1,0 +1,15 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class PitoNthDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(PitoNthDigits(5));
+		
+	}
+	public static double PitoNthDigits(int numb){
+		double a = 3.45 % 100;
+		return a;
+		
+	}
+}
