@@ -12,8 +12,7 @@ public class PitoNthDigits {
 
 	
 	public static void main(String[] args) {
-		System.out.println(pitoNthDigits(5));
-		System.out.println(etoNthDigits(5));
+		System.out.println(PitoNthDigits(5));
 		
 	}
 
