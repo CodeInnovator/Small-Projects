@@ -1,0 +1,10 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class PrimeFact {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

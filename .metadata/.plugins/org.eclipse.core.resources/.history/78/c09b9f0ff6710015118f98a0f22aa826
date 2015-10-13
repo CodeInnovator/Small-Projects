@@ -1,0 +1,38 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 
+ * @author CodeInnovator
+ *
+ *
+ **/
+public class PrimeFact {
+
+	public static void main(String[] args) {
+		/**
+		 * Prime Factorization
+		 *  Have the user enter a number and find all Prime Factors (if there are any) 
+		 *  and display them.
+		 **/		
+		System.out.println(primeFact(48));
+	}
+
+	public static List<Integer> primeFact(int n){
+		int max = n;
+		ArrayList<Integer> primeNumber = new ArrayList<Integer>();
+
+		for(int i = 1; i <= n; i++){
+			if(max % i == 0){
+				if(primeNumber.contains(i)){
+				} else{
+					primeNumber.add(i);
+					primeNumber.add(max / i);
+				}
+			}
+		}
+		return primeNumber;
+	}
+}
