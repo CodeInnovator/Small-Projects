@@ -1,0 +1,61 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+/**
+ * 
+ * @author CodeInnovator
+ * October.16.2015
+ */
+public class NextPrimeNumber {
+	int currentPrime = 2;
+	List<Integer> primeNumbers;
+	
+	
+	
+/*
+ * Next Prime Number -
+ *  Have the program find prime numbers 
+ *  until the user chooses to stop asking for the next one.
+ */
+	
+	public NextPrimeNumber(){
+		
+	}
+	
+	private void nextPrime(){
+		if (currentPrime == 2){
+			System.out.println(currentPrime);
+			primeNumbers  = new ArrayList<Integer>();
+			primeNumbers.add(2);
+			this.currentPrime += 1;
+		}else if(isPrime(currentPrime)) {
+					primeNumbers.add(currentPrime);
+					System.out.println(currentPrime);
+				} else {
+					currentPrime = currentPrime + 1;
+				}
+			}
+	
+
+	private boolean isPrime(int n){
+		
+		for(int i = 0; i < primeNumbers.size(); i++){
+			if(n % (primeNumbers.indexOf(i)) == 0){
+				return false;
+			}
+		}
+		return true;
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		 Scanner sc = new Scanner(System.in);
+	//     int i = sc.nextInt();
+	     NextPrimeNumber result = new NextPrimeNumber();
+	     result.nextPrime();
+	    result.nextPrime();
+	}
+}

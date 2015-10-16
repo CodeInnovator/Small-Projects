@@ -1,0 +1,17 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class NextPrimeNumber {
+/**
+ * 
+ * @author CodeInnovator
+ * Oct.16.2015
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+/*
+ * Next Prime Number -
+ *  Have the program find prime numbers until the user chooses to stop asking for the next one.
+ */
+}

@@ -22,4 +22,8 @@ Problem: Have the user enter a number and find all Prime Factors (if there are a
 
 5.Next Prime Number -
 Problem: Have the program find prime numbers until the user chooses to stop asking for the next one. 
- My solution: N/A. 
+ My solution:[NextPrimeNumber.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/NextPrimeNumber.java) (Last Updated: Oct.16. 2015).
+
+6.Find Cost of Tile to Cover W x H Floor -
+Problem: Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+My Solution: N/A
