@@ -25,17 +25,30 @@ public class PrimeFact {
 
 	public static List<Integer> primeFact(int n){
 		int max = n;
-		ArrayList<Integer> primeNumber = new ArrayList<Integer>();
-
+		ArrayList<Integer> candidates = new ArrayList<Integer>();
+		candidates.add(1);
 		for(int i = 1; i <= n; i++){
 			if(max % i == 0){
-				if(primeNumber.contains(i)){
-				} else{
-					primeNumber.add(i);
-					//Maybe I can add  (Given Number n)/i to the result at this point in oder to improve the performance But result array won't be organized. So I decided not to use.
+				if(!candidates.contains(i)){
+					if (isPrime(i, candidates)){
+						candidates.add(i);
+					}
 				}
 			}
 		}
-		return primeNumber;
+		return candidates;
+	}
+
+	private static boolean isPrime(int n, ArrayList<Integer> candidates) {
+		if(candidates.size() == 0 || candidates.size() == 1){
+			return true;
+		} else{
+			for(int i = 1; i< candidates.size() -1; i++){
+				if(n % (candidates.get(i)) == 0){
+					return false;
+				}
+			}
+			return true;
+		}
 	}
 }

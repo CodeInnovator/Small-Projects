@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;primeNumber&apos; in &apos;numbers.JavaMegaProjectList.codeInnovator.PrimeFact.primeFact(...)&apos; to &apos;candidates&apos;&#x0A;- Original project: &apos;JavaMegaProjectList&apos;&#x0A;- Original element: &apos;numbers.JavaMegaProjectList.codeInnovator.PrimeFact.primeFact(int).primeNumber&apos;&#x0A;- Renamed element: &apos;primeNumber&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;primeNumber&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;numbers.JavaMegaProjectList.codeInnovator{PrimeFact.java[PrimeFact~primeFact~I@primeNumber!577!634!596!606!QArrayList\&lt;QInteger;&gt;;!0!false" name="candidates" references="true" stamp="1444969996483" version="1.0"/>
+</session>
