@@ -26,4 +26,4 @@ Problem: Have the program find prime numbers until the user chooses to stop aski
 
 6.Find Cost of Tile to Cover W x H Floor -
 Problem: Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
-My Solution: N/A
+My Solution: [TileCostEstimator.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/TileCostEstimator.java) (Last Updated: Oct.18. 2015).
