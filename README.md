@@ -27,3 +27,11 @@ Problem: Have the program find prime numbers until the user chooses to stop aski
 6.Find Cost of Tile to Cover W x H Floor -
 Problem: Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 My Solution: [TileCostEstimator.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/TileCostEstimator.java) (Last Updated: Oct.18. 2015).
+
+7.Mortgage Calculator -
+Problem: Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+My Solution: N/A 
+
+8.Change Return Program -
+Problem: The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+My Solution:[ChangeReturn.java,](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/ChangeReturn.java) (Last Updated: Oct.20. 2015) [NonNegativeException.java]([TileCostEstimator.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/NonNegativeException.java) (Last Updated: Oct.20. 2015).

@@ -1,0 +1,7 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class NonNegativeException extends Exception {
+	
+	public 
+
+}

@@ -1,0 +1,52 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+
+
+public class ChangeReturn {
+/**
+ * 
+ * @author CodeInnovator
+ * Date: Oct. 20. 2015.
+ */
+	
+	
+	/**
+	 * Change Return Program - The user enters a cost and then the amount of money given. 
+	 * The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+	 * @throws NonNegativeException 
+	 * 
+	 */
+	
+
+	
+	public static String changeReturn(double amountPaid, double totalPrice) throws NonNegativeException  {
+		double changeAmount = amountPaid - totalPrice;
+		int quaters, dimes, nickels, pennies;
+		if (changeAmount < 0){
+			throw new NonNegativeException();
+		} else {
+			double temp = changeAmount * 100;
+			int changeAmountCents = (int) temp;
+			quaters = changeAmountCents / 25;
+			changeAmountCents = changeAmountCents % 25;
+			dimes = changeAmountCents = changeAmountCents / 10;
+			changeAmountCents = changeAmountCents % 10;
+			nickels = changeAmountCents = changeAmountCents / 5;
+			pennies = changeAmountCents % 5;
+			
+			return "$.25 * " + quaters + ",$.10 * " + dimes + ", $0.05 * " + nickels + ", $.01 * " + pennies;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) throws NonNegativeException {
+		// TODO Auto-generated method stub
+		System.out.println(changeReturn(10.50, 10.25));
+
+	}
+
+}
