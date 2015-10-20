@@ -34,4 +34,4 @@ My Solution: N/A
 
 8.Change Return Program -
 Problem: The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
-My Solution:[ChangeReturn.java,](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/ChangeReturn.java) (Last Updated: Oct.20. 2015) [NonNegativeException.java]([TileCostEstimator.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/NonNegativeException.java) (Last Updated: Oct.20. 2015).
+My Solution:[ChangeReturn.java,](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/ChangeReturn.java) (Last Updated: Oct.20. 2015) [NonNegativeException.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/NonNegativeException.java) (Last Updated: Oct.20. 2015).
