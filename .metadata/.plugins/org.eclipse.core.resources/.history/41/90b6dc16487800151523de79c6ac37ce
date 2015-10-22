@@ -1,0 +1,30 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+/**
+ * 
+ * @author CodeInnovator
+ * 
+ */
+	
+public class DecimalConverter {
+/**
+ * Binary to Decimal and Back Converter - 
+ * 
+ * Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+**/	
+	
+	
+	public static int decimalConverter(double bin){
+		double counter =1;
+	
+		while(bin/ (Math.pow(2.0, counter)) != 0){
+			counter += 1;
+		System.out.println(counter);
+		}
+		return 0;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				decimalConverter(5);
+	}
+
+}
