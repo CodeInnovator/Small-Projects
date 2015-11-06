@@ -38,4 +38,6 @@ My Solution:[ChangeReturn.java,](JavaMegaProjectList/src/numbers/JavaMegaProject
 
 9.Binary to Decimal and Back Converter -
 Problem: Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.[DecimalConverter.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/ChangeReturn.java) (Last Updated: Oct.21. 2015).
+
+10.Factorial Finder - The factorial of a positive integer n is defined as the product of the sequence , n-1, n-2, ...1 and the factorial of 0 is defined as being 1. Solve this using both loops and recursion.[FactorialFinder.js](FactorialFinder.js) (Last Updated: Nov.6. 2015).
  
