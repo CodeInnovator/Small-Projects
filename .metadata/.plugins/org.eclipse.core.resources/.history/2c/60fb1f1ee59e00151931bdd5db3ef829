@@ -14,8 +14,6 @@ public class Sorting {
 		printArray(mergeSort(test1));
 		printArray(test2);
 		printArray(mergeSort(test2));
-		printArray(test2);
-		printArray(bubbleSort(test2));
 		
 		
 	}
@@ -92,19 +90,17 @@ public class Sorting {
 //it swaps them. It continues doing this for each pair of adjacent elements to the end of the data set. It then starts again with the first two elements, repeating until no swaps have occurred on the last pass.
 	public static int[] bubbleSort(int[] input){
 		int inputLength = input.length;
-		int[] result = input;
+		int[] result = new int[inputLength];
 		int count = 0;
 		int next = 1;
 		for(int i = 0; i <inputLength -1; i++){
-			if(result[i] > result[next]){
-				int temp = result[i];
-				result[i] = result[next];
-				result[next] = temp;
+			if(input[i] > input[next]){
+				result[i] = input[next];
+				result[next] = input[i];
 				count++;
-				}
+			}
 			next++;
 		}
-		
 		if(count != 0){
 			bubbleSort(result);
 		}

@@ -1153,3 +1153,14 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-12-09 17:32:58.158
 !MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.tigris.subversion.clientadapter.javahl 1 0 2015-12-09 18:03:42.555
+!MESSAGE Failed to load JavaHL Library.
+These are the errors that were encountered:
+no libsvnjavahl-1 in java.library.path
+no svnjavahl-1 in java.library.path
+no svnjavahl in java.library.path
+java.library.path = /Users/KB/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2015-12-09 18:03:49.121
+!MESSAGE Repository link provider took over 5000 ms to execute and was timed out: "[org.tigris.subversion.subclipse.mylyn.SubclipseTaskRepositoryLinkProvider@468a4674]"

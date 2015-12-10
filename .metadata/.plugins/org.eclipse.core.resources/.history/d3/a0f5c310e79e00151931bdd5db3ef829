@@ -97,9 +97,8 @@ public class Sorting {
 		int next = 1;
 		for(int i = 0; i <inputLength -1; i++){
 			if(result[i] > result[next]){
-				int temp = result[i];
 				result[i] = result[next];
-				result[next] = temp;
+				result[next] = result[i];
 				count++;
 				}
 			next++;

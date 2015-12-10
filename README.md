@@ -43,5 +43,5 @@ Problem: Develop a converter to convert a decimal number to binary or a binary n
 
 11.Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.[collatz.js](collatz) (Last Updated: Nov.27. 2015)
 
-12.Sorting - Implement two types of sorting algorithms: Merge sort[Sorting.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/Sorting.java) (Lat Updated: Dec.8.2015)
+12.Sorting - Implement two types of sorting algorithms: Merge sort and bubble Sort. [Sorting.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/Sorting.java) (Lat Updated: Dec.8.2015)
  
