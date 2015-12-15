@@ -43,5 +43,7 @@ Problem: Develop a converter to convert a decimal number to binary or a binary n
 
 11.Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.[collatz.js](collatz) (Last Updated: Nov.27. 2015)
 
-12.Sorting - Implement two types of sorting algorithms: Merge sort and bubble Sort. [Sorting.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/Sorting.java) (Lat Updated: Dec.8.2015)
+12.Sorting - Implement two types of sorting algorithms: Merge sort and bubble Sort. [Sorting.java](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/Sorting.java) (Last Updated: Dec.8.2015)
+
+13.Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.[FizzBuzz.java]](JavaMegaProjectList/src/numbers/JavaMegaProjectList/codeInnovator/FizzBuzz.java) (Last updated: Dec.15.2015)
  
