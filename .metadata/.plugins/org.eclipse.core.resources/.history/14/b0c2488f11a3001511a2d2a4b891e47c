@@ -9,7 +9,6 @@ public class Reverse {
 		// TODO Auto-generated method stub
 			Reverse result = new Reverse();
 			result.result("abcde");
-			
 	}
 	
 	public Reverse(){

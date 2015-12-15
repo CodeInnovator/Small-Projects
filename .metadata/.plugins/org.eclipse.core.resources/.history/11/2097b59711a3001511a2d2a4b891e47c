@@ -9,7 +9,7 @@ public class Reverse {
 		// TODO Auto-generated method stub
 			Reverse result = new Reverse();
 			result.result("abcde");
-			
+			result.result("가나다라마바사");
 	}
 	
 	public Reverse(){

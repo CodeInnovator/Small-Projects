@@ -1,0 +1,18 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class PigLatin {
+/**
+ * Pig Latin - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay).
+ *  Read Wikipedia for more information on rules.
+ * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	//Rules
+	//1.For words that begin with consonant sounds,
+	//all letters before the initial vowel are placed at the end of the word sequence. Then, "ay" is added.
+	//2.For words which begin with vowel sounds or silent letter, one just adds "yay" to the end
+
+}

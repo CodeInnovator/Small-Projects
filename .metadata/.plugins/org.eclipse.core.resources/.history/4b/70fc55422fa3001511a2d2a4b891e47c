@@ -1,0 +1,82 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class PigLatin {
+/**
+ * Pig Latin - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay).
+ *  Read Wikipedia for more information on rules.
+ * @param args
+ */
+	String input;
+	int length;
+	int conCounter = 0;
+	final char[] upperConsonant = {'B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','X','Z','W','Y'};
+	final char[] lowerConsonant = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','x','z','w','y'};
+	final char[]  upperVoewl = {'A','E','I','O', 'U'};
+	final char[] lowerVowel = {'a','e','i', 'o', 'u'};
+	char[] continues;
+	
+	
+		//Rules
+	//1.For words that begin with consonant sounds,
+	//all letters before the initial vowel are placed at the end of the word sequence. Then, "ay" is added.
+	//2.For words which begin with vowel sounds or silent letter, one just adds "yay" to the end
+	
+	public PigLatin(String input){
+		this.input = input;
+		this.length = input.length();
+		this.continues = new char[length];
+	}
+	
+	public void printResult(){
+		boolean consonant = true;
+		int index = 0;
+		while(consonant){
+		for(int i = 0; i<upperConsonant.length; i++){
+			if(input.charAt(index) == upperConsonant[i]){
+				continues[index] = upperConsonant[i];
+				this.conCounter++;
+				index++;
+				break;
+			}else if(input.charAt(index) == lowerConsonant[i]){
+				continues[index] = lowerConsonant[i];
+				this.conCounter++;
+				index++;
+				break;
+			}
+		}
+		if(conCounter == 0){
+			consonant = false;
+		}
+	}
+		
+		int newLength = conCounter + 2;
+		int rest = length - conCounter;
+		char[] result = new char[newLength];
+		int j = 0;
+		for(int i = conCounter-1; i<length; i++){
+			result[j] = input.charAt(i);
+			j++;
+		}
+		int x = 0;
+		for(int i = rest-1; i<length; i++){
+			result[i] = continues[x];
+			x++;
+		}
+		result[newLength -2] = 'a';
+		result[newLength -1] = 'y';
+		
+		System.out.println(result);
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		PigLatin test = new PigLatin("pig");
+			test.printResult();
+		// TODO Auto-generated method stub
+
+	}
+
+
+}
