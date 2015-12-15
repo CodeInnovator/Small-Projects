@@ -1,0 +1,28 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class Reverse {
+/**
+ * Reverse a String - Enter a string and the program will reverse it and print it out.
+ * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Reverse result = new Reverse();
+			System.out.println(result.result("abcde"));
+	}
+	
+	public Reverse(){
+		
+	}
+
+	public String result(String input){
+		//"abcd" -> "cdba" 
+		int length = input.length();
+		char[] temp = new char[length];
+		for(int i = length; i >=0; i--){
+		temp[length - i -1]= input.charAt(i-1);
+		}
+		return temp.toString();
+		
+	}
+}

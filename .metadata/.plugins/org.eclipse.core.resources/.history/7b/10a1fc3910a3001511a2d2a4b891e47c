@@ -1,0 +1,23 @@
+package numbers.JavaMegaProjectList.codeInnovator;
+
+public class Reverse {
+/**
+ * Reverse a String - Enter a string and the program will reverse it and print it out.
+ * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public Reverse(){
+		
+	}
+
+	public String result(String input){
+		
+		
+		return input;
+		
+	}
+}
